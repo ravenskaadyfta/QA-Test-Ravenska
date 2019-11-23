@@ -42,7 +42,7 @@ WebUI.scrollToElement(findTestObject('scroll'), 0)
 
 WebUI.click(findTestObject('buttonCreateGist'))
 
-WebUI.click(findTestObject('span_New project_dropdown-caret'))
+WebUI.click(findTestObject('clickAva'))
 
 WebUI.click(findTestObject('a_Your gists'))
 
@@ -54,7 +54,7 @@ WebUI.setText(findTestObject('fieldInputGit'), 'User Edit Gist')
 
 WebUI.click(findTestObject('buttonUpdate'))
 
-WebUI.click(findTestObject('span_New project_dropdown-caret'))
+WebUI.click(findTestObject('clickAva'))
 
 WebUI.click(findTestObject('a_Your gists'))
 
@@ -62,9 +62,13 @@ WebUI.click(findTestObject('selectExistingGist'))
 
 WebUI.click(findTestObject('buttonDelete'))
 
-WebUI.click(findTestObject('span_New project_dropdown-caret'))
+WebUI.waitForAlert(2)
+
+WebUI.verifyAlertPresent(2)
+
+WebUI.acceptAlert()
+
+WebUI.click(findTestObject('clickAva'))
 
 WebUI.click(findTestObject('a_Your gists'))
-
-
 

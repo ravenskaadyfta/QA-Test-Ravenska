@@ -29,3 +29,9 @@ WebUI.click(findTestObject('selectExistingGist'))
 
 WebUI.click(findTestObject('buttonDelete'))
 
+WebUI.waitForAlert(2)
+
+WebUI.verifyAlertPresent(2)
+
+WebUI.acceptAlert()
+

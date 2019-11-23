@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_New gist</name>
+   <name>clickAva</name>
    <tag></tag>
-   <elementGuidId>2947a68b-8a36-4cbf-8856-6195ac07d27d</elementGuidId>
+   <elementGuidId>46a1388d-7fd7-4995-85ae-9e6587ecf5a1</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//a[contains(text(),'New gist')]</value>
+         <value>//summary[@class='Header-link name']//img[@class='avatar']</value>
       </entry>
       <entry>
          <key>BASIC</key>
