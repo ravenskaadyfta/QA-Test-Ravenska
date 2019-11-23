@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>As a user, I want to edit an existing gist.</description>
+   <name>Edit an existing gist</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>5e5be2f6-e217-4f21-af4f-c6a3b3b3c64e</testCaseGuid>
+</TestCaseEntity>
